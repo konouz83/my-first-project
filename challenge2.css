@@ -1,0 +1,128 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 15px;
+    max-width:1440px;
+    
+}
+
+h1 {
+    font-weight: 700;
+    font-family: 'Big Shoulders', sans-serif;
+    color:hsl(0, 0%, 95%);
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    
+}
+
+p {
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    color:hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5;
+
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+img {
+    width: 70px;
+    height:auto;
+
+}
+
+
+.container {
+    height:100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sedans {
+    background-color:hsl(31, 77%, 52%);
+    padding: 6rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height:580px;
+    width:400px;
+
+    display: flex;
+    flex-direction: column;
+    gap:45px;
+
+}
+
+.suvs {
+
+    background-color:hsl(184, 100%, 22%);
+    padding: 6rem;
+    height:580px;
+    width:400px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 6rem;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    height:580px;
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+
+}
+
+.icon-login1 {
+    background-color:hsla(0, 0%, 100%, 0.75); 
+    color:hsl(31, 77%, 52%);
+    text-align:center;
+    border-radius: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 2px;
+    padding-right:2px;
+
+}
+
+.icon-login2 {
+    background-color: hsla(0, 0%, 100%, 0.75);
+    color: hsl(184, 100%, 22%);
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+
+}
+
+.icon-login3 {
+    background-color:hsla(0, 0%, 100%, 0.75);
+    color: hsl(179, 100%, 13%);
+    text-align:center;
+    border-radius: 50px;
+    padding:5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+
+}
+
